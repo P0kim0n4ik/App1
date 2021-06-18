@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Page1">
+
+    <StackLayout Spacing="0" Margin="0">
+
+
+
+        <Frame BackgroundColor="#3f4c7c" Padding="24" CornerRadius="0" Margin="0">
+            <ImageButton Source="https://o.remove.bg/downloads/dd349d45-ce25-4ccf-a9d8-8d87d42a9e13/zF33ZDJo0sU-removebg-preview-removebg-preview.png" Aspect="AspectFill"  HeightRequest="50" WidthRequest="48" CornerRadius="0" Margin="20,40,0,0" BackgroundColor="#3f4c7c" Clicked="home"/>
+        </Frame>
+        <Label Text="Жанар 'АНИМЕ'" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="#3f4c7c" FontSize="Title" Padding="30,10,30,10"/>
+
+        <Label Text="" TextColor="White"/>
+
+        <ScrollView Grid.Row="4" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" VerticalOptions="End" Margin="0">
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="End" BackgroundColor="#3f4c7c" Spacing="0" Margin="0">
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="w1500_48397237.jpg" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Комбантанты будут высланы" TextColor="White"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="50,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="8.3" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://nyapi.ru/d/dsc0749.jpg" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Твоё имя" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="9.0" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://99px.ru/sstorage/56/2013/08/image_560508132333181341015.jpg" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Ходячий замок" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="8.0" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://i.pinimg.com/736x/ed/4a/75/ed4a755355288199fc6f8ba38143ac0f--film-anime-anime-art.jpg" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Унесённые призраками" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="7.4" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/8751d06c-3d35-4297-8f90-e09f017c0670/300x450" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Акудама Драйв" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="5.8" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/d0c1da41-94fc-4ae8-a4f7-2827e59270db/300x450" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Покемон" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="8.5" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/b926891f-7805-47d3-afab-88c21fcef5ba/300x450" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Моя геройская академия" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="8.3" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+
+                    <ImageButton Source="https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/54aae4e5-62b8-4572-8f97-3761743be082/300x450" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0"/>
+
+                    <Label Text="Доктор Стоун" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Label Text="Оценка" FontSize="12" Margin="50,0,0,0"/>
+                        <BoxView HeightRequest="5" WidthRequest="35" BackgroundColor="Orange" CornerRadius="12" Margin="72,0,0,0" HorizontalOptions="Center"/>
+                        <Label Text="6.3" FontSize="12" TextColor="White" Margin="113,0,0,0"/>
+                    </Grid>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Grid RowSpacing="0">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="250"/>
+
+            </Grid.RowDefinitions>
+
+            <StackLayout BackgroundColor="#3f4c7c">
+
+
+
+            </StackLayout>
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>

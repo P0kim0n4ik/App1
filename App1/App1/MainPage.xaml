@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <ContentPage.Content>
+
+
+        <ScrollView Orientation="Vertical">
+
+            <StackLayout BackgroundColor="#3f4c7c">
+
+                <StackLayout BackgroundColor="#3f4c7c">
+
+                    <StackLayout>
+                        <Image Source="https://o.remove.bg/downloads/dd349d45-ce25-4ccf-a9d8-8d87d42a9e13/zF33ZDJo0sU-removebg-preview-removebg-preview.png" BackgroundColor="#3f4c7c" VerticalOptions="CenterAndExpand" Margin="40"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal">
+
+                        <ImageButton Grid.Row="2" Source="z.png" HeightRequest="110" WidthRequest="120" HorizontalOptions="StartAndExpand" VerticalOptions="Start" BackgroundColor="#4c5d84" CornerRadius="12"/>
+
+                        <ImageButton Grid.Row="2" Source="x.png" HeightRequest="110" WidthRequest="120" HorizontalOptions="StartAndExpand" VerticalOptions="Start" BackgroundColor="#4c5d84" CornerRadius="12"/>
+
+                        <ImageButton Grid.Row="2" Source="c.png " HeightRequest="110" WidthRequest="110" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" BackgroundColor="#4c5d84" CornerRadius="12"/>
+
+                    </StackLayout>
+
+                    <Label Grid.Row="2" Text="Жанры" TextColor="White" BackgroundColor="#3f4c7c" FontSize="30" HorizontalOptions="Center" VerticalOptions="Start"/>
+
+                    <ScrollView Grid.Row="2" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" VerticalOptions="End">
+
+                        <StackLayout Orientation="Horizontal" VerticalOptions="End" BackgroundColor="#3f4c7c">
+
+                            <StackLayout>
+
+                                <ImageButton Source="https://i.pinimg.com/originals/48/5e/42/485e428a12ee4a81445b348ab2038ebb.jpg" Aspect="AspectFill"  HeightRequest="200" WidthRequest="150" CornerRadius="15" Margin="20,30,0,0" Clicked="next"/>
+
+                                <Label Text="Аниме" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="2" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                            <StackLayout>
+
+                                <ImageButton HeightRequest="200" WidthRequest="150" Source="2" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                    </ScrollView>
+
+                </StackLayout>
+
+                <Grid RowSpacing="0">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="300"/>
+
+                    </Grid.RowDefinitions>
+
+                    <StackLayout>
+
+                        <Label Text="Анонсы" TextColor="White" HorizontalOptions="Center"/>
+
+                    </StackLayout>
+
+                    <StackLayout>
+
+                        <ScrollView Grid.Row="2" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" VerticalOptions="End">
+
+                            <StackLayout Orientation="Horizontal" VerticalOptions="End" BackgroundColor="#3f4c7c">
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15" Clicked="next"/>
+
+                                    <Label Text="Аниме" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="2" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                                <StackLayout>
+
+                                    <ImageButton HeightRequest="200" WidthRequest="150" Source="2" BackgroundColor="Aquamarine" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,30,0,0" CornerRadius="15"/>
+
+                                    <Label Text="Name" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                    <Label Text="123" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center"/>
+
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </ScrollView>
+
+                    </StackLayout>
+                </Grid>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>
